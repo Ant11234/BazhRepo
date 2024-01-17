@@ -3,7 +3,7 @@ description: "CSA 2023-2024"
 owner_name: Anthony Bazhenov
 github_username: Ant11234
 github_repo: "BazhRepo"
-baseurl: "/BazhRepo"
+baseurl: "/bazhrepo"
 future: true
 remote_theme: jekyll/minima
 minima:
