@@ -1,9 +1,9 @@
-title: Teacher 2.0
-description: "August 2023 to June 2024"
-owner_name: John Mortensen
-github_username: nighthawkcoders
-github_repo: "teacher_portfolio"
-baseurl: "/teacher_portfolio"
+title: BazhRepo
+description: "CSA 2023-2024"
+owner_name: Anthony Bazhenov
+github_username: Ant11234
+github_repo: "BazhRepo"
+baseurl: "/BazhRepo"
 future: true
 remote_theme: jekyll/minima
 minima:
