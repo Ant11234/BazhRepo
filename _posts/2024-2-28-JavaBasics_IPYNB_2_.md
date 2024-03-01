@@ -28,10 +28,13 @@ The following is the link to the video which I took notes on.
         - Ex: PredictionService.java
     * Classes are started by first writing public class followed by the name of the file and two curly brackets "{}"
     * Majority of our classes are public because we want other files to be able to access the variables and functions created within the class.
-        - One example of a public class that I've created is PredictionService below:
+        - Below is a diagram explaining public classes and one example of a public class that I've created for ASL Artificial Intelligence:
+
+<img width="992" alt="Screenshot 2024-03-01 at 12 43 51 PM" src="https://github.com/Ant11234/BazhRepo/assets/40652645/fed58399-81c3-4142-9f47-ff771b6dbb3b">
 
 
-```python
+
+```java
 public class PredictionService {
     private final PredictionRepository predictionRepository;
     double[][] weights = new double[25][785];  //weights are available to all classes within PredictionService
@@ -189,13 +192,12 @@ public class PredictionService {
     }
 }
 ```
-
 The code above was called constantly throughout our project. Whether that be trainlogic in the begging of the code to initialize and create the weights, or predictandsave that uses predictionlogic in order to return a prediction based on the data and save it to be sent to /predictions PredictionService needed to be a public class in order to work with the other files about the AI model in the backend. By having the class encapsilate all the objects and functions needed for predictions it makes it more intuitive and easier to experiment with, to improve and to make sure data are safe for each class.
 
 
 ### Summary
 
-
+Java is an Object-Oriented Programming Language that emphasizes the use of classes as blueprints for creating objects, embodying both data and behavior. Classes in Java are named with a capital letter, adhering to Camel Case for multi-word names, such as PredictionService.java. A class is typically public, allowing its methods and variables to be accessible from other parts of the program, and is defined with the syntax public class ClassName {}. This approach facilitates the modeling of real-world or conceptual objects, enabling developers to structure software in a more intuitive and manageable way.
 
 
 
@@ -223,3 +225,28 @@ The following is the link to the video which I took notes on.
 
 
 ### Summary
+
+In Java, a class serves as a blueprint detailing attributes (characteristics of an object) and behaviors (actions an object can perform), essentially defining how an instance of itself can be created. Attributes represent the state of an object through instance variables, while behaviors dictate what actions the object can undertake. Object instantiation in Java involves calling a constructor—a special block of code named after the class, designed to initialize a new object by allocating memory space and assigning it a reference variable, which acts as a pointer to the object. Utilizing the new keyword followed by the class type and parentheses, Java simplifies the creation of new objects, allowing each to possess its unique attributes as defined by the class blueprint. This mechanism facilitates the dynamic generation of objects, each with its distinct state based on the class's specifications.
+
+## Calling Methods
+
+The following is the link to the video which I took notes on.
+[Link From Java Hello](https://www.youtube.com/watch?v=Wok4Xw_5cyY&ab_channel=Code.org)
+
+### Notes
+- Method is a named set of instructions to perform a task
+- Parameter is a variable in the method that defines the type of value to recieve when the method is called
+    * ex: Numbers, Text, True or False
+- Calling a method
+    * NameOfObject.NameOfTheMethod(Argument)
+        - Argument is a value passed to a mehthod when the method is called
+        - ex: fido.bark();
+- Class contains methods and methods are named comands for actions we want to perform
+
+In Java, a method is a named set of instructions designed to perform a specific task, encapsulated within a class to define actions that objects of the class can undertake. Methods may require parameters, which are variables specifying the type of value they accept upon being called—these could range from numbers and text to Boolean values. The process of calling a method involves using the syntax NameOfObject.NameOfTheMethod(Argument), where the argument is the actual value passed to the method. This structure allows classes to contain methods as named commands for actions, enabling objects to execute defined behaviors through method calls, thus facilitating interaction and manipulation of object states and behaviors in a structured manner.
+
+
+
+
+
+## JavaScript and Jupyter References
