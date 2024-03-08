@@ -18,9 +18,13 @@ Grade Recieved: 26/39
 
 Difficult Questions:
 Q27-I selected A for this question when I should've selected B. In order to do this question correct the next time I should more accurately hollow the path in the code. I messed up an if-statement condition and because of that the values got in mismatched order.
+
 Q28-I selected C my first time when the answer is B. My mistake stems from me messing up the index and how it starts at 0. I believed it started at 1 which messed up the rest of the code after.
+
 Q34-I selected B when it should've been D for this question. My mistake hear is a stupid mistake. I understand why because in the if statement you want to have k != sizeOfList-1 not 0.
+
 Q36-I mistakenly put B when it should've been D. I see my mistake now, because its not individually going term by term to find the middle, it is just dividing it in two, it only ever iterates 11 times before completing.
+
 Q38-I put A for 38 when it should've been C because it calls itself at the end meaning that it will go consistently through every term until it has done so.
 
 # Github Commits
