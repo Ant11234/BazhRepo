@@ -2,8 +2,8 @@
 toc: True
 comments: True
 layout: post
-title: Individual Progress Blog
-description: A blog showing my individual progress constantly being updated and renewed to show at the beginning of individual reviews.
+title: Debugging Blog
+description: A blog showing my debugging, it is additionally in an issue at https://github.com/Ant11234/BazhRepo/issues/16
 type: ccc
 courses: {'csa': {'week': 26}}
 ---

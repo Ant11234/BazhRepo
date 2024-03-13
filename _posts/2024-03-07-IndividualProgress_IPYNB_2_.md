@@ -70,3 +70,7 @@ In this blog there is a lot of information about how the AI percepetron works an
 
 [Sleep in Artificial Intelligence](https://ant11234.github.io/BazhRepo//2024/02/28/SleepInArtificialIntelligence_IPYNB_2_.html)
 In this blog I talk about my 4 long year project to see the effects sleep has on an artificial neural network for low and unbalanced data.
+
+
+[Debugging Issue](https://github.com/Ant11234/BazhRepo/issues/16)
+Shows in depth understanding of debugging.
