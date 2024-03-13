@@ -5,7 +5,7 @@ layout: post
 title: The Basics of Java
 description: A comprehensive review of all the basics of java based on all java-related jupyter notebooks from trimester 1.
 type: ccc
-courses: {'csa': {'week': 22}}
+courses: {'csa': {'week': 24}}
 ---
 
 # A Comprehensive Review of all the Basics of Java

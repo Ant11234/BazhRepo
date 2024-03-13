@@ -5,7 +5,7 @@ layout: post
 title: Sleep In Artificial Intelligence
 description: A look into my recent project with UCSD doing research about the effects of sleep on AI when trained on low or unblanaced data.
 type: ccc
-courses: {'csa': {'week': 22}}
+courses: {'csa': {'week': 24}}
 ---
 
 # Sleep In Artificial Intelligence
