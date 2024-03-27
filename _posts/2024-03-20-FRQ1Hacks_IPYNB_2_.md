@@ -67,13 +67,6 @@ You need to implement a method `calculateSquareRoot` that takes a `double` numbe
 
 ```python
 public class ScientificCalculator {
-
-    /**
-     * Calculates the square root of a given number.
-     * 
-     * @param number a double value for which the square root is to be calculated.
-     * @return the square root of the input number.
-     */
     public static double calculateSquareRoot(double number) {
         // Use Math.sqrt to calculate and return the square root of the input number
         return Math.sqrt(number);
