@@ -17,3 +17,67 @@ Situation: You are developing a student management system where you need to stor
 
 - An arraylist is a part of the java.util package and works as a resizeable array that can be changed in size.
 
+(b) Code:
+
+You need to implement a method `calculateAverageGrade` that takes an arrayList `grades` of integers representing student grades and returns the average of all the elements in the arrayList. Write the method signature and the method implementation. Include comments to explain your code.
+
+
+
+
+```python
+import java.util.ArrayList;
+
+public class StudentManagementSystem {
+    public static double calculateAverageGrade(ArrayList<Integer> grades) {
+        if (grades == null || grades.isEmpty()) {
+            // Return 0.0 if the list is null or empty to avoid division by zero
+            return 0.0;
+        }
+        
+        double sum = 0.0;
+        for (int grade : grades) {
+            sum += grade; // Sum up all the grades
+        }
+        // Calculate and return the average grade
+        return sum / grades.size();
+    }
+}
+
+```
+
+## Hacks for Question 4 : Math Class (Unit 2)
+
+Situation: You are developing a scientific calculator application where users need to perform various mathematical operations.
+
+(a) Discuss the purpose and utility of the Math class in Java programming. Provide examples of at least three methods provided by the Math class and explain their usage.
+
+- The Math class in Java is part of the java.lang package, which means it's available by default without needing to import it. This class provides a wide range of mathematical functions and constants that are useful for performing mathematical operations. These operations include basic arithmetic, exponentiation, logarithms, and trigonometry, among others. The utility of the Math class lies in its ability to perform complex mathematical computations accurately and efficiently without the programmer having to implement these functions from scratch.
+
+Examples of methods provided by the Math class include:
+
+- Math.abs(double a): Returns the absolute value of a given double value. This is useful for ensuring non-negative results from calculations.
+- Math.pow(double a, double b): Returns the value of the first parameter raised to the power of the second parameter. This method is crucial for exponential calculations.
+- Math.sqrt(double a): Returns the square root of a given double value. This method is often used in geometry, physics, and other fields requiring square root calculations.
+
+(b) Code:
+
+You need to implement a method `calculateSquareRoot` that takes a `double` number as input and returns its square root using the Math class. Write the method signature and the method implementation. Include comments to explain your code.
+
+
+
+```python
+public class ScientificCalculator {
+
+    /**
+     * Calculates the square root of a given number.
+     * 
+     * @param number a double value for which the square root is to be calculated.
+     * @return the square root of the input number.
+     */
+    public static double calculateSquareRoot(double number) {
+        // Use Math.sqrt to calculate and return the square root of the input number
+        return Math.sqrt(number);
+    }
+}
+
+```
