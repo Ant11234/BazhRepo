@@ -15,7 +15,7 @@ Situation: You are developing a student management system where you need to stor
 
 (a) Define an arrayList in Java. Explain its significance and usefulness in programming.
 
-- An arraylist is a part of the java.util package and works as a resizeable array that can be changed in size.
+- An arraylist is a part of the java.util package and works as a resizeable array that can be changed in size. They are mutable making them useful in a lot of code like for example changing around the characters of a string by first changing it to an array list than changing it around. They add a lot of variety in java and allow you to do things that would otherwise be extremely difficult. In my AI ASL code for example I used array lists for the weights and the brightness of the images and I found it extremely easy to change around these weights or read only certain rows or positions, the project wouldn't have been possible without arraylists.
 
 (b) Code:
 
