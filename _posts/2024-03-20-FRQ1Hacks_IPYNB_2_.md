@@ -24,26 +24,36 @@ You need to implement a method `calculateAverageGrade` that takes an arrayList `
 
 
 
-```python
+```Java
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class StudentManagementSystem {
     public static double calculateAverageGrade(ArrayList<Integer> grades) {
         if (grades == null || grades.isEmpty()) {
-            // Return 0.0 if the list is null or empty to avoid division by zero
             return 0.0;
         }
         
         double sum = 0.0;
         for (int grade : grades) {
-            sum += grade; // Sum up all the grades
+            sum += grade;
         }
-        // Calculate and return the average grade
         return sum / grades.size();
+    }
+
+    public static void main(String[] args) {
+        // Correctly initializing the ArrayList and passing it to the method
+        ArrayList<Integer> grades = new ArrayList<>(Arrays.asList(81, 20, 89, 97, 91, 102));
+        double average = calculateAverageGrade(grades);
+        System.out.println("The average grade is: " + average);
     }
 }
 
+StudentManagementSystem.main(null);
 ```
+
+    The average grade is: 80.0
+
 
 ## Hacks for Question 4 : Math Class (Unit 2)
 
@@ -65,12 +75,23 @@ You need to implement a method `calculateSquareRoot` that takes a `double` numbe
 
 
 
-```python
+```Java
 public class ScientificCalculator {
     public static double calculateSquareRoot(double number) {
         // Use Math.sqrt to calculate and return the square root of the input number
         return Math.sqrt(number);
     }
+
+    public static void main(String[] args) {
+        double number = 81.0;
+        double squareRoot = calculateSquareRoot(number);
+        
+        System.out.println("The square root of " + number + " is: " + squareRoot);
+    }
 }
 
+ScientificCalculator.main(null);
 ```
+
+    The square root of 81.0 is: 9.0
+
