@@ -24,7 +24,7 @@ You need to implement a method `calculateAverageGrade` that takes an arrayList `
 
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -75,7 +75,7 @@ You need to implement a method `calculateSquareRoot` that takes a `double` numbe
 
 
 
-```Java
+```java
 public class ScientificCalculator {
     public static double calculateSquareRoot(double number) {
         // Use Math.sqrt to calculate and return the square root of the input number
