@@ -55,7 +55,7 @@ r: number of rows (number of arrays)
 c: number of columns (length of each array)
 
 
-```Java
+```java
 public class Seasons {
 
     private String[][] Seasons = new String[2][3];
@@ -112,7 +112,7 @@ To update the element of a 2D array, all you need to do is reference its locatio
 
 
 
-```Java
+```java
 public class Seasons {
 
     private String[][] seasons = new String[2][3];
@@ -157,7 +157,7 @@ Out of bounds errors will *always* lose you at least one point on the scoring gu
 If values are intended to be modified during an iterative process, *do not* use a for-each loop. The elements accessed using this strategy are copies; accessing the array indexes directly to make modifications is the only way for them to be retained. See the example below:
 
 
-```Java
+```java
 import java.util.Arrays;
 
 int[][] modifyArray = {
@@ -185,7 +185,7 @@ System.out.println("After to modification: " + Arrays.deepToString(modifyArray))
 Instead, when modifying, you can use a traditional for loop (which also comes with the added benefit of having direct access to the relevant indexes):
 
 
-```Java
+```java
 import java.util.Arrays;
 
 int[][] actualModifyArray = {
@@ -235,7 +235,7 @@ Once again, make sure that you’re using the proper parameters!
 It's very possible that a question will prompt you to access a 2D array by its columns. (We found two in research for this lesson.) If you know you haven't practiced column-major order, give the code below a look. It might be a good idea to create your own code cell with a unique 2D array to practice with.
 
 
-```Java
+```java
 int[][] array = {
     {3, 5, 1},
     {9, 9, 7}
@@ -263,7 +263,7 @@ for (int col = 0; col < array[0].length; col++) {
 
 
 
-```Java
+```java
 public class TrimesterGrades {
 
     private int[][] trimesterGrades = {
