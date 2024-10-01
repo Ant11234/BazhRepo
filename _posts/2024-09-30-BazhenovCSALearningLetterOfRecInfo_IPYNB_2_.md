@@ -36,7 +36,7 @@ What I Learned:
 - I learned countless things about how teams work in the Computer Science setting with everyone working on individual parts assisting each other when necessary until they combine it into one huge project.
 - I learned how to code in a language I originally had no experience with html, and I began to start coding in Java.
 
-How I Applied The Leaning:
+How I Applied The Learning:
 - This was my first real introduction into vscode and jupyter notebook, tools I used countless times following the class in both my UCSD research project and Salk.
     * In the beginning of my research with UCSD we soley used applications like google collaboration, but due to the slow run times and confusing UI, we disliked the IDE and searched for alternatives. Through my time in AP CSA, I was prepared for the switch from google collaboration to vscode, more so than my peer at Del Norte who didn't take the class. I was able to continue my work, with almost more understanding of the overall structure of the Sleep-like replay and its effect on AI code.
     * Throughout Salk I would constantly use vscode for everything I did while there. I felt prepared coming into a space dominated by vscode with practically everyone, except suprisingly my Principal Investigator, using it for all of there projects. I also was prepared and able to understand when Graduate Students or Postdoctoral Fellow would show me their code on Jupyter notebook, and used it constantly for practically all my work while testing or coding before creating final files.
