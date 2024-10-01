@@ -2,7 +2,7 @@
 toc: True
 comments: False
 layout: post
-title: Bazhenov CSA Learning for Letter of Reccomendation Info
+title: Bazhenov CSA Learning for Letter of Recommendation Info
 description: Blog Showcasing Learning from Projects During CSA
 type: ccc
 courses: {'csa': {'week': 36}}
