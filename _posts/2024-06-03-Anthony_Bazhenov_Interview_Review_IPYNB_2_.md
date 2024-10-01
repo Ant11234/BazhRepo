@@ -8,6 +8,14 @@ type: ccc
 courses: {'csa': {'week': 30}}
 ---
 
+```python
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+from scipy.signal import savgol_filter
+from scipy import stats
+```
+
 # Interview Review
 
 

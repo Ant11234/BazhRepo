@@ -23,7 +23,7 @@ Selection Sort works by selecting the smallest (or largest, depending on sorting
 Time Complexity: O($n^2$)
 
 
-```Java
+```java
 import java.util.Arrays;
 
 public class SelectionSort {
@@ -66,7 +66,7 @@ Insertion Sort builds a sorted list by iteratively taking each element from the 
 Time Complexity: O($n^2$)
 
 
-```Java
+```java
 import java.util.Arrays;
 
 public class InsertionSort {
@@ -95,6 +95,10 @@ public class InsertionSort {
 InsertionSort.main(null);
 ```
 
+    Insertion Sort:
+    [11, 12, 22, 25, 34, 64, 90]
+
+
 ### Merge Sort
 
 
@@ -103,7 +107,7 @@ Merge Sort is a divide-and-conquer algorithm that recursively divides the list i
 Time Complexity: O($n \log(n)$)
 
 
-```Java
+```java
 public class MergeSort {
 
     // Method to sort an array using merge sort algorithm
@@ -210,7 +214,7 @@ Bubble Sort repeatedly iterates through the list, comparing adjacent elements an
 Time Complexity: O($n^2$)
 
 
-```Java
+```java
 import java.util.Arrays;
 
 public class BubbleSort {
@@ -251,7 +255,7 @@ Quick Sort is another divide-and-conquer algorithm. It selects a "pivot" element
 Time Complexity: Normally O($n \log(n)$) however, in worse cases can be O($n^2$) in nearly sorted or pivot selection bad.
 
 
-```Java
+```java
 import java.util.Arrays;
 
 public class QuickSort {
@@ -304,7 +308,7 @@ QuickSort.main(null);
 
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -413,7 +417,7 @@ FlowerCollection.runMain();
 
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Comparator;
